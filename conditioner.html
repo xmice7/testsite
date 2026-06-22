@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Портативний Кондиціонер 2в1 — Охолодження та Обігрів">
+<meta property="og:description" content="Купити за 2 599 грн зі знижкою 23%. Доставка по Україні. Нова Пошта.">
+<meta property="og:image" content="https://www.modamania.com.ua/wp-content/uploads/2026/05/ChatGPT-Image-25-мая-2026-г.-12_20_47-768x1024.png">
+<meta property="og:image:width" content="768">
+<meta property="og:image:height" content="1024">
+<title>Кондиціонер — Портативний кондиціонер 2в1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f4f6fb;
+  --bg2: #eaeff8;
+  --bg3: #dde4f0;
+  --accent: #0066cc;
+  --accent2: #6c2bd9;
+  --fire: #e53935;
+  --fire2: #f57c00;
+  --gold: #f9a825;
+  --text: #111827;
+  --text2: #374151;
+  --text3: #6b7280;
+  --card: rgba(255,255,255,0.85);
+  --card-border: rgba(0,0,0,0.08);
+  --r: 16px;
+  --r2: 24px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(ellipse 600px 400px at 20% 20%, rgba(0,102,204,0.05) 0%, transparent 70%),
+    radial-gradient(ellipse 500px 500px at 80% 80%, rgba(108,43,217,0.05) 0%, transparent 70%),
+    radial-gradient(ellipse 400px 300px at 50% 50%, rgba(229,57,53,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.wrap { position: relative; z-index: 1; }
+
+.top-strip {
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0,102,204,0.08);
+  border: 1px solid rgba(0,102,204,0.25);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 28px;
+  animation: fadeDown 0.8s ease both;
+}
+
+.badge-dot {
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: blink 1.5s infinite;
+
+}
+
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(42px, 8vw, 80px);
+  font-weight: 900;
+  line-height: 1.0;
+  letter-spacing: -2px;
+  animation: fadeDown 0.8s 0.1s ease both;
+  margin-bottom: 8px;
+}
+
+.hero-title .line1 { display: block; color: var(--text); }
+.hero-title .line2 {
+  display: block;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: var(--text2);
+  margin: 20px 0 40px;
+  animation: fadeDown 0.8s 0.2s ease both;
+  max-width: 500px;
+}
+
+.timer-wrap {
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: var(--r2);
+  padding: 20px 32px;
+  margin-bottom: 40px;
+  animation: fadeDown 0.8s 0.3s ease both;
+  backdrop-filter: blur(20px);
+}
+
+.timer-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--fire);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.timer-label::before, .timer-label::after {
+  content: '';
+  width: 30px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--fire));
+}
+.timer-label::after { background: linear-gradient(90deg, var(--fire), transparent); }
+
+.timer-boxes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.t-unit { text-align: center; }
+
+.t-num {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(108,43,217,0.1));
+  border: 1px solid rgba(0,102,204,0.2);
+  border-radius: 12px;
+  color: var(--text);
+  position: relative;
+  overflow: hidden;
+}
+
+.t-num::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,102,204,0.4), transparent);
+}
+
+.t-word {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text3);
+  margin-top: 6px;
+}
+
+.t-sep {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--accent);
+  opacity: 0.4;
+  margin-bottom: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product-stage {
+  position: relative;
+  animation: fadeDown 0.8s 0.4s ease both;
+  margin-bottom: 40px;
+}
+
+.product-glow {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(0,102,204,0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%,100% { transform: translate(-50%,-50%) scale(1); opacity: 0.6; }
+  50% { transform: translate(-50%,-50%) scale(1.2); opacity: 1; }
+}
+
+.product-img {
+  width: 260px;
+  height: auto;
+  border-radius: var(--r2);
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 30px 60px rgba(0,102,204,0.18));
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.price-hero-card {
+  background: rgba(255,255,255,0.95);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: var(--r2);
+  padding: 28px 32px;
+  max-width: 480px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  position: relative;
+  overflow: hidden;
+  animation: fadeDown 0.8s 0.5s ease both;
+}
+
+.price-hero-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.price-new {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #111, rgba(30,30,60,0.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.price-currency {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text2);
+}
+
+.price-old-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.price-old {
+  font-size: 20px;
+  color: var(--text3);
+  text-decoration: line-through;
+}
+
+.price-badge {
+  background: linear-gradient(135deg, var(--fire), var(--fire2));
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-main {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--fire), var(--fire2));
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 18px 28px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 8px 30px rgba(255,68,68,0.4);
+}
+
+.btn-main::before {
+  content: '';
+  position: absolute;
+  top: -100%; left: -100%;
+  width: 300%; height: 300%;
+  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.15), transparent);
+  animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  60%,100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+.btn-main:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(255,68,68,0.5); }
+.btn-main:active { transform: scale(0.98); }
+
+.stock-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text2);
+}
+
+.stock-num {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: var(--fire);
+}
+
+.stock-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 2px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.stock-fill {
+  width: 14%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--fire), var(--fire2));
+  border-radius: 2px;
+  animation: fillBar 1.5s ease both;
+}
+@keyframes fillBar { from { width: 0; } to { width: 14%; } }
+
+.features-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1px;
+  background: rgba(0,0,0,0.04);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.feat-item {
+  background: var(--bg);
+  padding: 24px 16px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.feat-item:hover { background: rgba(0,102,204,0.06); }
+
+.feat-icon {
+  width: 44px; height: 44px;
+  background: linear-gradient(135deg, rgba(0,102,204,0.12), rgba(108,43,217,0.12));
+  border: 1px solid rgba(0,102,204,0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 0 auto 10px;
+}
+
+.feat-val {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.feat-label {
+  font-size: 11px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 3px;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.section-title em {
+  font-style: normal;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-lead {
+  font-size: 17px;
+  color: var(--text2);
+  line-height: 1.7;
+  max-width: 640px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+@media(max-width: 900px) {
+  .section { padding: 60px 24px; max-width: 100%; }
+  .hero { padding: 48px 20px 32px; }
+  .price-hero-card { padding: 24px; }
+}
+
+@media(max-width: 680px) {
+  .two-col { grid-template-columns: 1fr; gap: 24px; }
+  .t-num { width: 62px; height: 62px; font-size: 34px; }
+  .hero-title { font-size: clamp(32px, 9vw, 48px); letter-spacing: -1px; }
+  .hero-sub { font-size: 16px; margin: 16px 0 28px; }
+  .timer-wrap { padding: 16px 18px; }
+  .product-img { width: 200px; }
+  .price-hero-card { padding: 20px 16px; max-width: 100%; }
+  .price-new { font-size: 44px; }
+  .btn-main { font-size: 14px; padding: 16px 20px; }
+  .features-strip { grid-template-columns: repeat(3, 1fr); }
+  .use-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .delivery-grid { grid-template-columns: 1fr; gap: 12px; }
+  .section { padding: 48px 16px; }
+  .section-title { font-size: clamp(24px, 6vw, 36px); }
+  .reviews-grid { grid-template-columns: 1fr; }
+  .order-section { padding: 48px 16px; }
+  .notice-fixed { padding: 12px 14px; gap: 10px; }
+  .notice-msg { font-size: 12px; }
+  .notice-btn { font-size: 11px; padding: 8px 14px; }
+}
+
+@media(max-width: 400px) {
+  .hero { min-height: auto; padding: 40px 14px 28px; }
+  .hero-title { font-size: 30px; }
+  .hero-badge { font-size: 10px; padding: 5px 12px; }
+  .t-num { width: 54px; height: 54px; font-size: 26px; }
+  .t-sep { font-size: 28px; }
+  .timer-wrap { padding: 14px 12px; }
+  .timer-boxes { gap: 4px; }
+  .t-word { font-size: 9px; }
+  .product-img { width: 170px; }
+  .price-new { font-size: 38px; }
+  .features-strip { grid-template-columns: repeat(2, 1fr); gap: 1px; }
+  .use-grid { grid-template-columns: 1fr; }
+  .specs-grid { grid-template-columns: 1fr; }
+  .section { padding: 36px 14px; }
+  .form-card { padding: 20px 14px; }
+  .btn-submit { font-size: 14px; letter-spacing: 0.5px; }
+  .delivery-grid { grid-template-columns: 1fr; }
+  .order-inner { max-width: 100%; }
+  .notice-fixed { flex-wrap: wrap; }
+  .notice-text-wrap { flex: 1; min-width: 0; }
+  .notice-msg { font-size: 11px; }
+}
+
+.side-img {
+  width: 100%;
+  border-radius: var(--r2);
+  border: 1px solid rgba(0,0,0,0.1);
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.use-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.use-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--r);
+  padding: 20px;
+  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+  cursor: default;
+}
+
+.use-card:hover {
+  border-color: rgba(0,102,204,0.3);
+  background: rgba(0,102,204,0.04);
+  transform: translateY(-3px);
+}
+
+.use-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.use-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.use-desc {
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(0,0,0,0.05);
+  border-radius: var(--r2);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.spec-cell {
+  background: var(--bg2);
+  padding: 20px 24px;
+  transition: background 0.2s;
+}
+
+.spec-cell:hover { background: rgba(0,102,204,0.05); }
+
+.spec-label {
+  font-size: 12px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.spec-val {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.spec-accent { color: var(--accent); }
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.review-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--r2);
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.review-card:hover {
+  border-color: rgba(123,47,255,0.3);
+  transform: translateY(-4px);
+}
+
+.review-card::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  font-size: 120px;
+  font-family: Georgia, serif;
+  color: rgba(108,43,217,0.12);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.review-stars {
+  color: var(--gold);
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  padding-top: 16px;
+}
+
+.review-ava {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(123,47,255,0.3);
+}
+
+.review-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.review-age {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+.delivery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.del-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--r2);
+  padding: 28px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.del-card:hover {
+  border-color: rgba(0,102,204,0.3);
+  transform: translateY(-4px);
+}
+
+.del-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.del-card:hover::after { opacity: 1; }
+
+.del-icon-wrap {
+  width: 60px; height: 60px;
+  background: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(108,43,217,0.1));
+  border: 1px solid rgba(0,102,204,0.2);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 auto 16px;
+}
+
+.del-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.del-text {
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+  margin: 0 20px;
+}
+
+.order-section {
+  background: var(--bg2);
+  border-top: 1px solid rgba(0,102,204,0.15);
+  border-bottom: 1px solid rgba(0,102,204,0.15);
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.order-section::before {
+  content: '';
+  position: absolute;
+  top: -200px; left: 50%;
+  transform: translateX(-50%);
+  width: 600px; height: 400px;
+  background: radial-gradient(ellipse, rgba(0,102,204,0.06), transparent 70%);
+  pointer-events: none;
+}
+
+.order-inner {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.form-card {
+  background: rgba(255,255,255,0.95);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: var(--r2);
+  padding: 36px 32px;
+  margin-top: 36px;
+  backdrop-filter: blur(20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.f-input {
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #111;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.f-input::placeholder { color: rgba(0,0,0,0.35); }
+.f-input:focus {
+  border-color: var(--accent);
+  background: rgba(0,102,204,0.04);
+}
+
+.btn-submit {
+  width: 100%;
+  background: linear-gradient(135deg, var(--fire), var(--fire2));
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 18px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 8px 30px rgba(255,68,68,0.4);
+}
+
+.btn-submit::before {
+  content: '';
+  position: absolute;
+  top: -100%; left: -100%;
+  width: 300%; height: 300%;
+  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.12), transparent);
+  animation: shine 3s ease-in-out infinite;
+}
+
+.btn-submit:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(255,68,68,0.5); }
+
+.form-note {
+  font-size: 12px;
+  color: var(--text3);
+  text-align: center;
+  margin-top: 14px;
+}
+
+.complect-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.complect-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--r);
+  padding: 16px 20px;
+  transition: border-color 0.3s;
+}
+
+.complect-item:hover { border-color: rgba(0,102,204,0.25); }
+
+.complect-num {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(0,102,204,0.08);
+  border: 1px solid rgba(0,102,204,0.2);
+  border-radius: 8px;
+  width: 32px; height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.complect-text {
+  font-size: 15px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.adv-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.adv-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+.adv-check {
+  width: 24px; height: 24px;
+  background: linear-gradient(135deg, rgba(0,102,204,0.15), rgba(108,43,217,0.15));
+  border: 1px solid rgba(0,102,204,0.3);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.adv-item strong { color: var(--text); }
+
+.notice-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0; right: 0;
+  background: linear-gradient(135deg, #fff0ee, #ffe5e0);
+  border-top: 1px solid rgba(229,57,53,0.35);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  z-index: 999;
+  animation: slideUpFixed 0.6s ease both;
+}
+
+@keyframes slideUpFixed {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.notice-text-wrap { display: flex; align-items: center; gap: 12px; }
+.notice-icon { font-size: 24px; flex-shrink: 0; }
+.notice-msg {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+.notice-msg span { color: var(--fire); }
+
+.notice-btn {
+  background: linear-gradient(135deg, var(--fire), var(--fire2));
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.notice-close-btn {
+  background: none;
+  border: none;
+  color: rgba(0,0,0,0.4);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  flex-shrink: 0;
+  transition: color 0.2s;
+}
+.notice-close-btn:hover { color: #000; }
+
+footer {
+  background: #e8edf5;
+  padding: 32px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.footer-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: var(--text2);
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 12px;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--text2); }
+
+.footer-copy {
+  font-size: 12px;
+  color: var(--text3);
+  margin-top: 14px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media(max-width: 540px) {
+  .specs-grid { grid-template-columns: 1fr; }
+  .reviews-grid { grid-template-columns: 1fr; }
+  .timer-wrap { padding: 16px 14px; }
+  .t-num { width: 58px; height: 58px; font-size: 28px; }
+  .section { padding: 44px 16px; }
+  .form-card { padding: 24px 16px; }
+  .two-col { grid-template-columns: 1fr; gap: 20px; }
+  .hero-sub { font-size: 15px; }
+  .feat-val { font-size: 17px; }
+  .del-card { padding: 22px 16px; }
+}
+
+body { padding-bottom: 80px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top-strip">🔥 Акція обмежена — знижка до 23% · Доставка по всій Україні</div>
+<section class="hero">
+  <div class="hero-badge">
+    <span class="badge-dot"></span>
+    Лімітована акція · 2026
+  </div>
+
+  <h1 class="hero-title">
+    <span class="line1">Портативний</span>
+    <span class="line2">Кондиціонер 2в1</span>
+  </h1>
+
+  <p class="hero-sub">Охолодження та обігрів в одному пристрої — без складного монтажу, зі стильним дизайном</p>
+
+  <div class="timer-wrap">
+    <div class="timer-label">⚡ Акція закінчується через</div>
+    <div class="timer-boxes">
+      <div class="t-unit">
+        <div class="t-num" id="t-days">00</div>
+        <div class="t-word">днів</div>
+      </div>
+      <div class="t-sep">:</div>
+      <div class="t-unit">
+        <div class="t-num" id="t-hours">00</div>
+        <div class="t-word">годин</div>
+      </div>
+      <div class="t-sep">:</div>
+      <div class="t-unit">
+        <div class="t-num" id="t-mins">20</div>
+        <div class="t-word">хвилин</div>
+      </div>
+      <div class="t-sep">:</div>
+      <div class="t-unit">
+        <div class="t-num" id="t-secs">00</div>
+        <div class="t-word">секунд</div>
+      </div>
+    </div>
+  </div>
+  <div class="product-stage">
+    <div class="product-glow"></div>
+    <img class="product-img"
+      src="https://www.modamania.com.ua/wp-content/uploads/2026/05/ChatGPT-Image-25-мая-2026-г.-12_20_47-768x1024.png"
+      alt="Портативний кондиціонер Кондиціонер 2в1"
+      onerror="this.style.background='rgba(0,212,255,0.1)';this.style.height='300px'">
+  </div>
+  <div class="price-hero-card">
+    <div class="price-row">
+      <span class="price-new">2 599</span>
+      <span class="price-currency">грн</span>
+    </div>
+    <div class="price-old-row">
+      <span class="price-old">3 490 грн</span>
+      <span class="price-badge">−23%</span>
+    </div>
+
+    <a href="#order" class="btn-main">🔥 ЗАМОВИТИ ЗІ ЗНИЖКОЮ</a>
+
+    <div class="stock-row">
+      За цією ціною залишилось лише
+      <span class="stock-num">7</span>
+      штук
+    </div>
+    <div class="stock-bar"><div class="stock-fill"></div></div>
+  </div>
+</section>
+<div class="features-strip reveal">
+  <div class="feat-item">
+    <div class="feat-icon">❄️</div>
+    <div class="feat-val">1200 Вт</div>
+    <div class="feat-label">охолодження</div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">🔥</div>
+    <div class="feat-val">3500 Вт</div>
+    <div class="feat-label">нагрів</div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">📐</div>
+    <div class="feat-val">20 м²</div>
+    <div class="feat-label">площа дії</div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">💧</div>
+    <div class="feat-val">5 л</div>
+    <div class="feat-label">бак для води</div>
+  </div>
+  <div class="feat-item">
+    <div class="feat-icon">📡</div>
+    <div class="feat-val">Пульт</div>
+    <div class="feat-label">ДК в комплекті</div>
+  </div>
+</div>
+<div class="divider"></div>
+<section class="section reveal">
+  <div class="section-eyebrow">застосування</div>
+  <h2 class="section-title">Де <em>використовувати</em></h2>
+  <p class="section-lead" style="margin-bottom:40px;">Портативний і універсальний — підходить для будь-якого приміщення без монтажу</p>
+
+  <div class="use-grid">
+    <div class="use-card">
+      <span class="use-icon">🏠</span>
+      <div class="use-title">Квартира</div>
+      <div class="use-desc">Щоденний комфорт вдома в будь-яку пору року</div>
+    </div>
+    <div class="use-card">
+      <span class="use-icon">💼</span>
+      <div class="use-title">Офіс</div>
+      <div class="use-desc">Продуктивна атмосфера без зайвого шуму</div>
+    </div>
+    <div class="use-card">
+      <span class="use-icon">🛏</span>
+      <div class="use-title">Спальня</div>
+      <div class="use-desc">Здоровий сон при ідеальній температурі</div>
+    </div>
+    <div class="use-card">
+      <span class="use-icon">🌿</span>
+      <div class="use-title">Дача</div>
+      <div class="use-desc">Без складного встановлення — просто підключи</div>
+    </div>
+    <div class="use-card">
+      <span class="use-icon">🏡</span>
+      <div class="use-title">Вітальня</div>
+      <div class="use-desc">Мікроклімат для всієї родини</div>
+    </div>
+    <div class="use-card">
+      <span class="use-icon">🎯</span>
+      <div class="use-title">Локально</div>
+      <div class="use-desc">Охолодіть або прогрійте саме там, де потрібно</div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section reveal">
+  <div class="two-col">
+    <div>
+      <div class="section-eyebrow">про пристрій</div>
+      <h2 class="section-title">Комфорт<br><em>цілий рік</em></h2>
+      <p style="font-size:15px;color:var(--text2);line-height:1.8;margin-bottom:24px;">
+        Режим охолодження створює потужний потік прохолодного повітря — ідеально у спекотні дні. Вбудована функція зволоження робить повітря приємним і комфортним.
+      </p>
+      <p style="font-size:15px;color:var(--text2);line-height:1.8;margin-bottom:24px;">
+        <strong style="color:var(--text);">Режим обігріву</strong> швидко прогріє кімнату в холодний сезон без додаткових обігрівачів. Компактний корпус займає мінімум місця.
+      </p>
+      <p style="font-size:15px;color:var(--text2);line-height:1.8;">
+        Сенсорне керування та <strong style="color:var(--text);">пульт ДК</strong> забезпечують зручне використання з будь-якого куточка кімнати.
+      </p>
+    </div>
+    <div>
+      <img class="side-img"
+        src="https://www.modamania.com.ua/wp-content/uploads/2026/05/ChatGPT-Image-25-мая-2026-г.-12_28_09-768x1024.png"
+        alt="Кондиціонер в інтер'єрі"
+        onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+<div style="text-align:center;padding:20px 20px 60px;">
+  <a href="#order" class="btn-main" style="max-width:400px;display:inline-block;">🛒 ЗАМОВИТИ ЗА 2 599 ГРН</a>
+</div>
+<div class="divider"></div>
+<section class="section reveal">
+  <div class="two-col" style="align-items:start;">
+    <div>
+      <img class="side-img"
+        src="https://www.modamania.com.ua/wp-content/uploads/2026/05/ChatGPT-Image-25-мая-2026-г.-12_36_34-683x1024.png"
+        alt="Характеристики кондиціонера"
+        onerror="this.style.display='none'">
+    </div>
+    <div>
+      <div class="section-eyebrow">технічні дані</div>
+      <h2 class="section-title" style="margin-bottom:28px;">Характеристики</h2>
+      <div class="specs-grid">
+        <div class="spec-cell">
+          <div class="spec-label">Площа дії</div>
+          <div class="spec-val spec-accent">до 20 м²</div>
+        </div>
+        <div class="spec-cell">
+          <div class="spec-label">Нагрів</div>
+          <div class="spec-val">3500 Вт</div>
+        </div>
+        <div class="spec-cell">
+          <div class="spec-label">Охолодження</div>
+          <div class="spec-val">1200 Вт</div>
+        </div>
+        <div class="spec-cell">
+          <div class="spec-label">Бак</div>
+          <div class="spec-val">5 л</div>
+        </div>
+        <div class="spec-cell">
+          <div class="spec-label">Керування</div>
+          <div class="spec-val">сенсорне</div>
+        </div>
+        <div class="spec-cell">
+          <div class="spec-label">Розміри</div>
+          <div class="spec-val" style="font-size:14px;">230×200×710 мм</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section reveal">
+  <div class="two-col">
+    <div>
+      <div class="section-eyebrow">що в коробці</div>
+      <h2 class="section-title" style="margin-bottom:28px;"><em>Комплектація</em></h2>
+      <div class="complect-grid">
+        <div class="complect-item">
+          <div class="complect-num">01</div>
+          <div class="complect-text">Портативний кондиціонер 2в1 — 1 шт</div>
+        </div>
+        <div class="complect-item">
+          <div class="complect-num">02</div>
+          <div class="complect-text">Пульт дистанційного керування — 1 шт</div>
+        </div>
+        <div class="complect-item">
+          <div class="complect-num">03</div>
+          <div class="complect-text">Інструкція з експлуатації — 1 шт</div>
+        </div>
+      </div>
+      <a href="#order" class="btn-main" style="margin-top:28px;display:block;">ЗАМОВИТИ ЗІ ЗНИЖКОЮ</a>
+    </div>
+    <div>
+      <img class="side-img"
+        src="https://www.modamania.com.ua/wp-content/uploads/2026/05/ChatGPT-Image-25-мая-2026-г.-12_41_14-683x1024.png"
+        alt="Комплектація"
+        onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section reveal">
+  <div style="text-align:center;margin-bottom:48px;">
+    <div class="section-eyebrow">відгуки</div>
+    <h2 class="section-title">Що кажуть <em>покупці</em></h2>
+    <div style="display:inline-flex;align-items:center;gap:10px;background:rgba(0,102,204,0.06);border:1px solid rgba(0,102,204,0.2);border-radius:100px;padding:8px 20px;margin-top:12px;">
+      <span style="color:var(--gold);font-size:18px;">★★★★★</span>
+      <span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:18px;color:var(--text);">4.9</span>
+      <span style="font-size:13px;color:var(--text2);">· 98% рекомендують</span>
+    </div>
+  </div>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">Сподобалось, що є і охолодження, і обігрів в одному пристрої. Використовували восени замість обігрівача — кімнату прогріває швидко. Бак на 5 літрів вистачає надовго. Працює тихо та виглядає сучасно.</div>
+      <div class="review-author">
+        <img class="review-ava" src="https://www.modamania.com.ua/wp-content/uploads/2026/05/r1-1.jpg" alt="Ірина" onerror="this.style.background='rgba(123,47,255,0.3)'">
+        <div>
+          <div class="review-name">Ірина</div>
+          <div class="review-age">33 роки · Київ</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">Купував для спальні на літо, працює значно краще, ніж очікував. Повітря стає прохолоднішим вже через кілька хвилин. Зручне сенсорне керування та пульт у комплекті. Для 18 м² вистачає повністю.</div>
+      <div class="review-author">
+        <img class="review-ava" src="https://www.modamania.com.ua/wp-content/uploads/2026/05/r3-1.jpg" alt="Андрій" onerror="this.style.background='rgba(0,212,255,0.3)'">
+        <div>
+          <div class="review-name">Андрій</div>
+          <div class="review-age">55 років · Львів</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-text">Брала для офісу через компактні розміри. Легко переносити між кімнатами. Добре охолоджує в спеку та не потребує складного встановлення. Керування просте, розібралася одразу.</div>
+      <div class="review-author">
+        <img class="review-ava" src="https://www.modamania.com.ua/wp-content/uploads/2026/05/r2-1.jpg" alt="Анастасія" onerror="this.style.background='rgba(255,68,68,0.3)'">
+        <div>
+          <div class="review-name">Анастасія</div>
+          <div class="review-age">38 років · Харків</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section reveal">
+  <div style="text-align:center;margin-bottom:40px;">
+    <div class="section-eyebrow">логістика</div>
+    <h2 class="section-title">Доставка <em>&amp; Оплата</em></h2>
+  </div>
+  <div class="delivery-grid">
+    <div class="del-card">
+      <div class="del-icon-wrap">📦</div>
+      <div class="del-title">Доставка</div>
+      <div class="del-text">Нова Пошта по всій Україні. Відправка протягом 1–3 робочих днів.</div>
+    </div>
+    <div class="del-card">
+      <div class="del-icon-wrap">💳</div>
+      <div class="del-title">Оплата</div>
+      <div class="del-text">При отриманні на пошті або передплата на рахунок ФОП.</div>
+    </div>
+    <div class="del-card">
+      <div class="del-icon-wrap">🛡</div>
+      <div class="del-title">Гарантія</div>
+      <div class="del-text">Перевіряємо кожен товар перед відправкою. Гарантуємо якість.</div>
+    </div>
+  </div>
+</section>
+<div id="order" class="order-section reveal">
+  <div class="order-inner">
+    <div class="section-eyebrow" style="text-align:center;">оформити замовлення</div>
+    <h2 class="section-title" style="text-align:center;">Замовити<br><em>зараз</em></h2>
+
+    <div style="display:flex;align-items:center;justify-content:center;gap:16px;margin:16px 0;">
+      <div style="text-align:center;">
+        <div style="font-family:'Montserrat',sans-serif;font-size:40px;font-weight:900;color:var(--text);line-height:1;">2 599</div>
+        <div style="font-size:13px;color:var(--text3);">грн зі знижкою</div>
+      </div>
+      <div style="font-size:28px;color:var(--text3);">→</div>
+      <div style="text-align:center;">
+        <div style="font-size:20px;color:var(--text3);text-decoration:line-through;font-weight:600;">3 490</div>
+        <div style="font-size:13px;color:var(--text3);">звичайна ціна</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="form-row">
+        <input class="f-input" type="text" placeholder="Ваше ім'я" id="f-name">
+        <input class="f-input" type="tel" placeholder="Номер телефону" id="f-phone">
+        <button class="btn-submit" onclick="submitOrder()">🔥 ЗАМОВИТИ ЗА 2 599 ГРН</button>
+      </div>
+      <div class="form-note">Натискаючи кнопку, ви погоджуєтесь з умовами обробки персональних даних</div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:20px;font-size:14px;color:var(--text2);">
+      <span>Залишилось лише</span>
+      <span style="font-family:'Montserrat',sans-serif;font-size:22px;font-weight:900;color:var(--fire);">7</span>
+      <span>штук по акційній ціні!</span>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer-logo">Кондиціонер</div>
+  <div class="footer-links">
+    <a href="#">Політика конфіденційності</a>
+    <a href="#">Умови та положення</a>
+    <a href="#">Повернення</a>
+  </div>
+  <div class="footer-copy">© 2026 Кондиціонер. Всі права захищені.</div>
+</footer>
+</div>
+<div class="notice-fixed" id="notice-bar">
+  <div class="notice-text-wrap">
+    <span class="notice-icon">⏳</span>
+    <div class="notice-msg">
+      <span>ЗНИЖКА СКОРО ЗАКІНЧИТЬСЯ!</span><br>
+      Поспішайте — залишилось 7 штук по акційній ціні
+    </div>
+  </div>
+  <a href="#order" class="notice-btn">Замовити</a>
+  <button class="notice-close-btn" onclick="document.getElementById('notice-bar').style.display='none'">✕</button>
+</div>
+<script>
+(function() {
+  var KEY = 'cond_timer_end';
+  var stored = localStorage.getItem(KEY);
+  var end;
+  if (stored && parseInt(stored) > Date.now()) {
+    end = parseInt(stored);
+  } else {
+    end = Date.now() + 20 * 60 * 1000;
+    try { localStorage.setItem(KEY, end); } catch(e) {}
+  }
+  function tick() {
+    var diff = Math.max(0, end - Date.now());
+    var d = Math.floor(diff / 86400000); diff %= 86400000;
+    var h = Math.floor(diff / 3600000);  diff %= 3600000;
+    var m = Math.floor(diff / 60000);    diff %= 60000;
+    var s = Math.floor(diff / 1000);
+    document.getElementById('t-days').textContent  = String(d).padStart(2,'0');
+    document.getElementById('t-hours').textContent = String(h).padStart(2,'0');
+    document.getElementById('t-mins').textContent  = String(m).padStart(2,'0');
+    document.getElementById('t-secs').textContent  = String(s).padStart(2,'0');
+  }
+  tick();
+  setInterval(tick, 1000);
+})();
+
+var io = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(function(el) { io.observe(el); });
+
+function submitOrder() {
+  var name  = document.getElementById('f-name').value.trim();
+  var phone = document.getElementById('f-phone').value.trim();
+  if (!name || !phone) { alert('Будь ласка, заповніть усі поля'); return; }
+  document.querySelector('.form-card').innerHTML =
+    '<div style="text-align:center;padding:20px;">' +
+    '<div style="font-size:48px;margin-bottom:16px;">✅</div>' +
+    '<div style="font-family:Montserrat,sans-serif;font-size:22px;font-weight:900;color:#111;margin-bottom:8px;">Замовлення прийнято!</div>' +
+    '<div style="color:var(--text2);font-size:15px;">Дякуємо, ' + name + '!<br>Ми зателефонуємо вам найближчим часом.</div>' +
+    '</div>';
+}
+</script>
+</body>
+</html>
