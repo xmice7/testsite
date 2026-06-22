@@ -561,7 +561,7 @@ body::after {
   width: 100%;
   border-radius: var(--r2);
   border: 1px solid rgba(0,0,0,0.1);
-  object-fit: cover;
+  object-fit: contain;
   max-height: 400px;
 }
 
@@ -1078,6 +1078,30 @@ footer {
   .hero-sub { font-size: 15px; }
   .feat-val { font-size: 17px; }
   .del-card { padding: 22px 16px; }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.side-img { object-fit: contain; }
+@media (max-width: 680px) {
+  .hero { padding-left: 0; padding-right: 0; }
+  .product-stage {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  .product-img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 0;
+  }
 }
 
 body { padding-bottom: 80px; }
